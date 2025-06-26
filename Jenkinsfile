@@ -24,7 +24,7 @@ pipeline {
             steps {
                 echo 'Test Stage'
                 sh '''
-                    npm test
+                    /usr/local/bin/npm test
                 '''
             }
         }   
