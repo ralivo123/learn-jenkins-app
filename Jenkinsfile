@@ -21,12 +21,14 @@ pipeline {
             }
         }
         stage('Test') {
-            steps {
-                echo 'Test Stage'
-                sh '''
-                    /usr/local/bin/npm test
-                '''
+          steps {
+            echo 'Test Stage'
+            sh '''
+            node --version
+            npm --version
+            ls -la
+            CI=true npm test
+            '''
             }
-        }   
     }
 }
