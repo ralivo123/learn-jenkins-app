@@ -33,5 +33,6 @@ pipeline {
                 npm test
                 '''
             }
+        }
     }
 }
