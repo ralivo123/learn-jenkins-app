@@ -28,10 +28,10 @@ pipeline {
                 }
             }
             steps {
-            sh '''
-            test -f index.html
-            npm test
-            '''
+                sh '''
+                test -f index.html
+                npm test
+                '''
             }
     }
 }
