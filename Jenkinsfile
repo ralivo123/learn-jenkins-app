@@ -129,7 +129,7 @@ pipeline {
             }
 
             environment {
-                CI_ENVIRONMENT_URL = '7066e582-74ce-458c-b070-6942733e189a'
+                CI_ENVIRONMENT_URL = 'https://wondrous-dodol-d2256e.netlify.app/'
             }
 
             steps {
